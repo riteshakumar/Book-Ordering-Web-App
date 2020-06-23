@@ -1,0 +1,11 @@
+<!-- When a request URI refers to a directory, the default servlet looks  -->
+  <!-- for a "welcome file" within that directory and, if present,          -->
+  <!-- to the corresponding resource URI for display.  If no welcome file   -->
+  <!-- is present, the default servlet either serves a directory listing,   -->
+  <!-- or returns a 404 status, depending on how it is configured.          -->
+ 
+<welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
